@@ -1,0 +1,23 @@
+.app-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.3s ease;
+}
+
+.light-theme {
+  background-color: blue;
+}
+
+.dark-theme {
+  background-color: black;
+}
+
+.theme-button {
+  font-size: 2rem;
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
